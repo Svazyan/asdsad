@@ -1,7 +1,6 @@
 import express from "express"
 import JiraController from "../controller/jira.info"
 
-
 const jiraRouter = express.Router()
 
 jiraRouter.route("/jiraikner").post(async (req,res,next)=>{
