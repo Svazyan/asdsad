@@ -9,6 +9,4 @@ gitRouter.post("/esim" ,  async (req,res,next)=>{
    } catch (e) 
       }
 })
-
-
 export default gitRouter
