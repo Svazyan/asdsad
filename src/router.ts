@@ -6,6 +6,12 @@ console.log("ertetetetetetete");
 const initializeRoutes = (app: Express) => {
     app.use('/git', gitRouter);
     app.use('/jira',jiraRouter)
+
+
+
+
+
+    
 };
 
 export default initializeRoutes;
